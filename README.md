@@ -1,7 +1,7 @@
 # 🧾 Proyecto: Transformación Digital - Perfulandia SPA
 
 
-Este repositorio contiene el desarrollo técnico del sistema basado en microservicios para la empresa Perfulandia SPA, como parte de la Evaluación Parcial 2 de la asignatura **Desarrollo Full Stack I**.
+Este repositorio contiene el desarrollo técnico del sistema basado en microservicios para la empresa Perfulandia SPA, como parte de la Evaluación Parcial 3 de la asignatura **Desarrollo Full Stack I**.
 
 ## 📦 Descripción General del Proyecto
 
@@ -101,7 +101,7 @@ Para conectar de forma correcta la base de datos, agregamos propiedades a "appli
 |-------------------------|-----------------------------------|------------------------------|
 | Fabián Reyes            |  Backend - Pedido - Repositorio   | pedidoservice                |
 | Matías Vargas           |  Backend - Productos - Pedido     | productoservice              |
-| Martín Rivas            |  Backend - Pedido - Usuario       | usuarioservice               |
+| Brian Aravena           |  Backend - Pedido - Usuario       | usuarioservice               |
 
 ## 📂 Estructura del Repositorio
 
@@ -123,7 +123,7 @@ En nuestro caso nos dividimos las tareas, por lo tanto no tenemos muchas ramas e
 
 *Fabián Reyes: Microservicios.
 *Matías Vargas: Encargo, repositorio/Readme.
-*Martín Rivas: Archivo Readme.
+*Brian Aravena: Testing.
 
 ## 📈 Lecciones Aprendidas
 A lo largo de nuestro trabajo en este proyecto, conseguimos mejorar nuestras habilidades a la hora de manejar herramientas como bases de datos o creacion de microservicios. 
