@@ -93,6 +93,17 @@ Para conectar de forma correcta la base de datos, agregamos propiedades a "appli
 4.-Uso del DELETE
 ![image](https://github.com/user-attachments/assets/6b63f74f-928c-466e-b5c7-a5eb617f8d0d)
 
+Controlador de producto 
+![Captura de pantalla 2025-07-04 124546](https://github.com/user-attachments/assets/c6d61841-b952-4e8c-b7c6-d476fd271a60)
+
+Controlador de usuario 
+![Captura de pantalla 2025-07-04 124633](https://github.com/user-attachments/assets/4e9b32b5-1b2c-473b-9a92-d3f3a8b60bf5)
+
+Comprobación de métodos
+![Captura de pantalla 2025-07-04 124710](https://github.com/user-attachments/assets/95f9b9f8-9b4e-46a9-a1b7-0892d8b8a20a)
+
+Testing 
+![Captura de pantalla 2025-07-04 124905](https://github.com/user-attachments/assets/d60e6e2e-9856-468b-b9c5-6c33d188d248)
 
 
 ## 🧑‍💻 Integrantes del Equipo
