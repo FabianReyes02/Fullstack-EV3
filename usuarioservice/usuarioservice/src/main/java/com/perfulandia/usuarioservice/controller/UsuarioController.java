@@ -24,14 +24,15 @@ public class UsuarioController {
     }
 
     @PostMapping
-    public Usuario guardar(@RequestBody Usuario usuario){
-        return service.guardar(usuario);
+    public Usuario crear(@RequestBody Usuario usuario){
+        return service.crear(usuario);
     }
 
     @GetMapping("/{id}")
     public Usuario buscar(@PathVariable long id){
         return service.buscar(id);
     }
+
 
     @DeleteMapping("/{id}")
     public void eliminar(@PathVariable long id){

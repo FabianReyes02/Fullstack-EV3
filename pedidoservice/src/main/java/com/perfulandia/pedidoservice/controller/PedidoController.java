@@ -39,7 +39,7 @@ public class PedidoController {
     }
     @GetMapping("/producto/{id}")
     public Producto obtenerProducto(@PathVariable long id){
-        return restTemplate.getForObject("http://localhost:8080/api/productos/" + id, Producto.class);
+        return restTemplate.getForObject("http://localhost:8082/api/productos/" + id, Producto.class);
     }
     // Modificar
     @PatchMapping("/{id}")

@@ -17,8 +17,8 @@ public class UsuarioService {
     public List<Usuario> listar(){
         return repo.findAll();
     }
-    //Guardar
-    public Usuario guardar(Usuario usuario){
+    public Usuario crear(Usuario usuario) {
+        usuario.setId(null); // fuerza creación nueva
         return repo.save(usuario);
     }
     //Buscar por id
@@ -30,5 +30,19 @@ public class UsuarioService {
         repo.deleteById(id);
     }
     //Modificar
+
+
+    public Usuario actualizar(Long id, Usuario usuario) {
+        Usuario existente = repo.findById(id)
+                .orElseThrow(() -> new RuntimeException("Usuario no encontrado"));
+
+        // Asignar manualmente los nuevos valores
+        existente.setNombre(usuario.getNombre());
+        existente.setCorreo(usuario.getCorreo());
+        existente.setRol(usuario.getRol());
+
+        // La versión es manejada automáticamente por Hibernate
+        return repo.save(existente);
+    }
 
 }
